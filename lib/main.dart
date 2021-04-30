@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:hafta6/hakkinda.dart';
-import 'package:hafta6/hata.dart';
 import 'package:hafta6/soru1.dart';
 import 'package:hafta6/hakkinda.dart';
 import 'package:google_fonts/google_fonts.dart';
