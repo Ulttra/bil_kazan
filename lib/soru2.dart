@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:hafta6/bitir.dart';
 import 'package:hafta6/cekil.dart';
 import 'package:hafta6/soru3.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class soru2 extends StatefulWidget {
   @override
@@ -149,7 +150,7 @@ class _soru2State extends State<soru2> {
 
     return Scaffold(
       appBar: new AppBar(backgroundColor: Colors.indigo,
-        title: new Text('Bil Kazan'),
+        title: new Text('Bil Kazan', style:GoogleFonts.playfairDisplaySc()),
         centerTitle: true,
       ),
       body: //Center(

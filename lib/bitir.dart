@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class Bitir extends StatefulWidget {
   @override
@@ -13,7 +14,7 @@ class _BitirState extends State<Bitir> {
 
     return Scaffold(
       appBar: new AppBar(
-        title: new Text('Bil Kazan'),
+        title: new Text('Bil Kazan', style:GoogleFonts.playfairDisplaySc()),
         centerTitle: true,
         backgroundColor: Colors.indigo,
       ),

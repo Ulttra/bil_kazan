@@ -4,6 +4,9 @@ import 'package:hafta6/hakkinda.dart';
 import 'package:hafta6/hata.dart';
 import 'package:hafta6/soru1.dart';
 import 'package:hafta6/hakkinda.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:shimmer/shimmer.dart';
+
 
 void main() {
   runApp(MyApp());
@@ -84,7 +87,7 @@ class _MyHomePageState extends State<MyHomePage> {
     final ButtonStyle basla = ElevatedButton.styleFrom(primary: Colors.indigo);
     return Scaffold(
       appBar: new AppBar(
-        title: new Text('Bil Kazan'),
+        title: new Text('Bil Kazan', style:GoogleFonts.playfairDisplaySc()),
         centerTitle: true,
         backgroundColor: Colors.indigo,
       ),
@@ -201,6 +204,8 @@ class _MyHomePageState extends State<MyHomePage> {
                         margin: EdgeInsets.only(left: 20.0, top: 20.0),
                         child: SizedBox(
                           height: 35.0,
+
+
                           child: TextButton(
                             style: TextButton.styleFrom(primary: Colors.lightBlueAccent),
                             onPressed:()
@@ -215,6 +220,7 @@ class _MyHomePageState extends State<MyHomePage> {
                               style: TextStyle(
                                   fontWeight: FontWeight.bold, fontSize: 15.0),
                             ),
+
                           ),
                         )),
                   ),

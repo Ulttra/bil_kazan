@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class Cekil extends StatefulWidget {
   @override
@@ -12,6 +13,11 @@ class _CekilState extends State<Cekil> {
     data = ModalRoute.of(context).settings.arguments;
 
     return Scaffold(
+      appBar: new AppBar(
+        title: new Text('Bil Kazan', style:GoogleFonts.playfairDisplaySc()),
+        centerTitle: true,
+        backgroundColor: Colors.indigo,
+      ),
       body: Center(
         // Center is a layout widget. It takes a single child and positions it
         // in the middle of the parent.
