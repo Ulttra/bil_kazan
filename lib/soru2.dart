@@ -374,7 +374,7 @@ class _soru2State extends State<soru2> {
                         alignment: Alignment.centerLeft,
                         child: Text(
                           'A) ' + cevaplistesi[0],
-                          style: TextStyle(fontSize: 15),
+                          style: TextStyle(fontSize: 14),
                         ),
                       ),
                     ),
@@ -392,7 +392,7 @@ class _soru2State extends State<soru2> {
                         alignment: Alignment.centerLeft,
                         child: Text(
                           'B) ' + cevaplistesi[1],
-                          style: TextStyle(fontSize: 15),
+                          style: TextStyle(fontSize: 14),
                         ),
                       ),
                     ),
@@ -419,7 +419,7 @@ class _soru2State extends State<soru2> {
                         alignment: Alignment.centerLeft,
                         child: Text(
                           'C) ' + cevaplistesi[2],
-                          style: TextStyle(fontSize: 15),
+                          style: TextStyle(fontSize: 14),
                         ),
                       ),
                     ),
@@ -437,7 +437,7 @@ class _soru2State extends State<soru2> {
                         alignment: Alignment.centerLeft,
                         child: Text(
                           'D) ' + cevaplistesi[3],
-                          style: TextStyle(fontSize: 15),
+                          style: TextStyle(fontSize: 14),
                         ),
                       ),
                     ),
